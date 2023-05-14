@@ -6,7 +6,7 @@ import { DeliveryMethod } from '@shopify/shopify-api';
 export default {
 	APP_UNINSTALLED: {
 		deliveryMethod: DeliveryMethod.Http,
-		callbackUrl: shopify.config.webhooks.path,
+		callbackUrl: '/api/webhooks',
 		callback: async (topic, shop, body, webhookId) => {
 			console.log(shop, 'shop');
 		},
