@@ -118,6 +118,7 @@ Using yarn:
 
 ```shell
 cd web/frontend/ && SHOPIFY_API_KEY=REPLACE_ME yarn build
+cd web/frontend/ && SHOPIFY_API_KEY=95dd79592a490e979d138f990ee7ba76 yarn build
 ```
 
 Using npm:
